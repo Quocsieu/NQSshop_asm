@@ -726,6 +726,10 @@ select,
     background: linear-gradient(90deg, rgb(132, 0, 255), rgb(255, 0, 179));
     transition: all 1s ease;
   }
+  .total{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
 }
 
 @media (max-width: 475px) {
