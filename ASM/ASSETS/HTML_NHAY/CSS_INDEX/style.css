@@ -6,7 +6,7 @@
 }
 body {
   font-family: "DM Sans", sans-serif;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 section {
   border-bottom: 1px solid #ccc;
@@ -29,7 +29,7 @@ section {
   color: black;
   text-decoration: none;
   position: relative;
-  transition: transform 0.4s ease;       
+  transition: transform 0.4s ease;
 }
 #header #navbar-left #nav-list li a::before {
   position: absolute;
@@ -41,7 +41,7 @@ section {
   background-color: #000000;
   transition: transform 0.4s ease;
 }
-#header #navbar-left #nav-list li a:hover{
+#header #navbar-left #nav-list li a:hover {
   text-shadow: 1px 1px 3px white;
   transform: scale(1.1);
 }
@@ -73,15 +73,15 @@ section {
   align-items: center;
   gap: 1rem;
 }
-#navbar-right .bi{
+#navbar-right .bi {
   cursor: pointer;
   transition: transform 0.4s ease;
   color: black;
 }
-#navbar-right .bi:hover{
+#navbar-right .bi:hover {
   text-shadow: 1px 1px 3px white;
 }
-#navbar-right .bi:active{
+#navbar-right .bi:active {
   transform: scale(0.9);
 }
 .search {
@@ -90,7 +90,7 @@ section {
   justify-content: end;
   align-items: center;
 }
-.search .icon-search{
+.search .icon-search {
   cursor: pointer;
 }
 .search #text {
@@ -104,7 +104,7 @@ section {
   margin-right: 0.5rem;
 }
 /* main */
-main{
+main {
   width: 100%;
 }
 /* Banner */
@@ -119,11 +119,12 @@ main{
   align-items: center;
   gap: 3rem;
 }
-#banner #banner-title, #banner-content{
+#banner #banner-title,
+#banner-content {
   color: white;
   text-shadow: 3px 3px 5px black;
 }
-#banner #btn-buy{
+#banner #btn-buy {
   background-color: rgb(0, 234, 255);
   padding: 1rem 3rem;
   border-radius: 50px;
@@ -132,12 +133,12 @@ main{
   font-weight: 700;
   letter-spacing: 3px;
 }
-#banner #btn-buy:hover{
+#banner #btn-buy:hover {
   background-color: lightblue;
   cursor: pointer;
 }
 /* About */
-#about{
+#about {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -170,7 +171,7 @@ main{
 #features-items #features-items-right img {
   width: 100%;
 }
-#features #btn{
+#features #btn {
   margin: 3rem 0;
   text-align: center;
   color: gray;
@@ -462,48 +463,46 @@ main{
 }
 /* Products */
 
-#products{
+#products {
   width: 100%;
   padding: 0 0.5rem;
 }
-#products #products-title{
+#products #products-title {
   margin: 3rem 0 2rem;
   text-align: center;
 }
-#products #products-items{
+#products #products-items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   height: 101%;
 }
-#products-items img{
+#products-items img {
   width: 100%;
 }
-#items-1 .select-color label{
+#items-1 .select-color label {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
-  background-color: #F0E1C4;
+  background-color: #f0e1c4;
   cursor: pointer;
-
 }
 #items-1 #items-1-btn-img-1:checked ~ .select-color .btn-color-1 {
   outline: 2px solid gray;
   outline-offset: 3px;
 }
-#items-2 .select-color label{
+#items-2 .select-color label {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
-  background-color: #BFBFBF;
+  background-color: #bfbfbf;
   cursor: pointer;
-
 }
 #items-2 #items-2-btn-img-1:checked ~ .select-color .btn-color-1 {
   outline: 2px solid gray;
   outline-offset: 3px;
 }
-#items-3{
+#items-3 {
   position: relative;
   overflow: hidden;
 }
@@ -511,54 +510,58 @@ main{
   outline: 2px solid gray;
   outline-offset: 3px;
 }
-#items-3 .img-2{
+#items-3 .img-2 {
   position: absolute;
   left: 0;
   opacity: 0;
   transform: translateY(100%);
-  transition: transform 1s ease, opacity 1s ease;
+  transition:
+    transform 1s ease,
+    opacity 1s ease;
   pointer-events: none;
 }
 #items-3 #items-3-btn-img-2:checked ~ .select-color .btn-color-2 {
   outline: 2px solid gray;
   outline-offset: 3px;
 }
-#items-3 .img-3{
+#items-3 .img-3 {
   position: absolute;
   left: 0;
   opacity: 0;
   transform: translateY(100%);
-  transition: transform 1s ease, opacity 1s ease;
+  transition:
+    transform 1s ease,
+    opacity 1s ease;
   pointer-events: none;
 }
 #items-3 #items-3-btn-img-3:checked ~ .select-color .btn-color-3 {
   outline: 2px solid gray;
   outline-offset: 3px;
 }
-#items-3 .select-color label{
+#items-3 .select-color label {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
   cursor: pointer;
 }
-#items-3 .select-color .btn-color-1{
-  background-color: #F0E1C4;
+#items-3 .select-color .btn-color-1 {
+  background-color: #f0e1c4;
 }
-#items-3 .select-color .btn-color-2{
+#items-3 .select-color .btn-color-2 {
   background-color: #000000;
 }
-#items-3 .select-color .btn-color-3{
-  background-color: #EEEEEE;
+#items-3 .select-color .btn-color-3 {
+  background-color: #eeeeee;
 }
-#items-3 #items-3-btn-img-2:checked ~ .img-2{
+#items-3 #items-3-btn-img-2:checked ~ .img-2 {
   opacity: 1;
   transform: translateY(0);
 }
-#items-3 #items-3-btn-img-3:checked ~ .img-3{
+#items-3 #items-3-btn-img-3:checked ~ .img-3 {
   opacity: 1;
   transform: translateY(0);
 }
-#items-4{
+#items-4 {
   position: relative;
   overflow: hidden;
 }
@@ -566,50 +569,54 @@ main{
   outline: 2px solid gray;
   outline-offset: 3px;
 }
-#items-4 .img-2{
+#items-4 .img-2 {
   position: absolute;
   left: 0;
   opacity: 0;
   transform: translateY(100%);
-  transition: transform 1s ease, opacity 1s ease;
+  transition:
+    transform 1s ease,
+    opacity 1s ease;
   pointer-events: none;
 }
 #items-4 #items-4-btn-img-2:checked ~ .select-color .btn-color-2 {
   outline: 2px solid gray;
   outline-offset: 3px;
 }
-#items-4 .img-3{
+#items-4 .img-3 {
   position: absolute;
   left: 0;
   opacity: 0;
-    transform: translateY(100%);
-  transition: transform 1s ease, opacity 1s ease;
+  transform: translateY(100%);
+  transition:
+    transform 1s ease,
+    opacity 1s ease;
   pointer-events: none;
 }
 #items-4 #items-4-btn-img-3:checked ~ .select-color .btn-color-3 {
   outline: 2px solid gray;
   outline-offset: 3px;
 }
-#items-4 .select-color label{
+#items-4 .select-color label {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
   cursor: pointer;
 }
-#items-4 .select-color .btn-color-1{
-  background-color: #F0E1C4;
+#items-4 .select-color .btn-color-1 {
+  background-color: #f0e1c4;
 }
-#items-4 .select-color .btn-color-2{
-  background-color: #EEEEEE;
+#items-4 .select-color .btn-color-2 {
+  background-color: #eeeeee;
 }
-#items-4 .select-color .btn-color-3{
+#items-4 .select-color .btn-color-3 {
   background-color: #000000;
 }
-#items-4 #items-4-btn-img-2:checked ~ .img-2{
+#items-4 #items-4-btn-img-2:checked ~ .img-2 {
   opacity: 1;
   transform: translateY(0);
 }
-#items-4 #items-4-btn-img-3:checked ~ .img-3{
+#items-4 #items-4-btn-img-3:checked ~ .img-3 {
   opacity: 1;
   transform: translateY(0);
 }
@@ -638,36 +645,37 @@ main{
 #items-4 .select-color label {
   border-radius: 50%;
 }
-#products #btn{
+#products #btn {
   margin: 2rem 0;
   text-align: center;
   color: gray;
 }
 /*----------- FOOTER -----------*/
-#contact-card{
+#contact-card {
   background-color: black;
   color: white;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
   padding: 2rem 0 2rem 3rem;
 }
-#card-call{
+#card-call {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-#call-buy, #call-fback{
+#call-buy,
+#call-fback {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
-#card-info{
+#card-info {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-#info-list{
+#info-list {
   margin-left: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -677,16 +685,16 @@ main{
   list-style-type: none;
   text-decoration: none;
 }
-#info-list .list-items a{
+#info-list .list-items a {
   text-decoration: none;
   color: white;
 }
-#card-faq{
+#card-faq {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-#faq-list{
+#faq-list {
   margin-left: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -696,33 +704,33 @@ main{
   list-style-type: none;
   text-decoration: none;
 }
-#faq-list .list-items a{
+#faq-list .list-items a {
   text-decoration: none;
   color: white;
 }
-#icon-list{
+#icon-list {
   display: flex;
   list-style-type: none;
   gap: 1rem;
 }
-.bi{
+.bi {
   color: white;
   font-size: 1.25rem;
 }
-#form-contact{
+#form-contact {
   width: 85%;
   height: 100%;
 }
-#contact-form{
+#contact-form {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
   border: none;
 }
-#contact-form .input{
+#contact-form .input {
   border-radius: 10px;
 }
-#contact-form button{
+#contact-form button {
   border-radius: 10px;
   width: 20%;
   padding: 5px 0;

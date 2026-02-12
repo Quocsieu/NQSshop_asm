@@ -431,7 +431,7 @@ section {
   background-color: #000000;
 }
 #row2-items-4 .btn-color-3 {
-  background-color: #B47B55;
+  background-color: #b47b55;
 }
 #row2-items-4 #row2-items-4-btn-img-1:checked ~ .select-color .btn-color-1,
 #row2-items-4 #row2-items-4-btn-img-2:checked ~ .select-color .btn-color-2,
@@ -486,7 +486,7 @@ section {
 }
 
 /*---------------- ITEM1 --------------------*/
-#row3-items-1{
+#row3-items-1 {
   position: relative;
 }
 #row3-items-1 .btn-color-1 {
@@ -518,11 +518,11 @@ section {
 #row3-items-2 .btn-color-1 {
   background-color: black;
 }
-#row3-items-2 #row3-items-2-btn-img-1:checked ~ .select-color .btn-color-1{  outline: 2px solid gray;
+#row3-items-2 #row3-items-2-btn-img-1:checked ~ .select-color .btn-color-1 {
+  outline: 2px solid gray;
   outline-offset: 3px;
 }
 /*----------------- ITEM3 ------------------*/
-
 
 #row3-items-3 .btn-color-1 {
   background-color: #000000;
@@ -538,7 +538,7 @@ section {
 #row3-items-4 .btn-color-1 {
   background-color: BLACK;
 }
-#row3-items-4 #row3-items-4-btn-img-1:checked ~ .select-color .btn-color-1{
+#row3-items-4 #row3-items-4-btn-img-1:checked ~ .select-color .btn-color-1 {
   outline: 2px solid gray;
   outline-offset: 3px;
 }
@@ -593,17 +593,17 @@ section {
   outline-offset: 3px;
 }
 /*----------------- ITEM2 ------------------*/
-#row4-items-2{
+#row4-items-2 {
   position: relative;
 }
-#row4-items-2 .img-2{
+#row4-items-2 .img-2 {
   position: absolute;
   opacity: 0;
   transform: translateY(100%);
   pointer-events: none;
   transition: all 1s ease;
 }
-#row4-items-2 .img-3{
+#row4-items-2 .img-3 {
   position: absolute;
   opacity: 0;
   transform: translateY(100%);
@@ -611,10 +611,10 @@ section {
   transition: all 1s ease;
 }
 #row4-items-2 .btn-color-1 {
-  background-color: #F0E1C4;
+  background-color: #f0e1c4;
 }
 #row4-items-2 .btn-color-2 {
-  background-color: #EAB7B3;
+  background-color: #eab7b3;
 }
 #row4-items-2 .btn-color-3 {
   background-color: black;
@@ -631,16 +631,15 @@ section {
   outline: 2px solid gray;
   outline-offset: 3px;
 }
-#row4-items-2 #row4-items-2-btn-img-2:checked ~ .img-2{
+#row4-items-2 #row4-items-2-btn-img-2:checked ~ .img-2 {
   opacity: 1;
   transform: translateY(0);
 }
-#row4-items-2 #row4-items-2-btn-img-3:checked ~ .img-3{
+#row4-items-2 #row4-items-2-btn-img-3:checked ~ .img-3 {
   opacity: 1;
   transform: translateY(0);
 }
 /*----------------- ITEM3 ------------------*/
-
 
 #row4-items-3 .btn-color-1 {
   background-color: #000000;
@@ -656,17 +655,17 @@ section {
 #row4-items-4 .btn-color-1 {
   background-color: BLACK;
 }
-#row4-items-4 #row4-items-4-btn-img-1:checked ~ .select-color .btn-color-1{
+#row4-items-4 #row4-items-4-btn-img-1:checked ~ .select-color .btn-color-1 {
   outline: 2px solid gray;
   outline-offset: 3px;
 }
 /* ------------------XEM CHI TIẾT ------------- */
-.detail{
+.detail {
   display: flex;
   justify-content: space-between;
   gap: 8rem;
 }
-.detail .btn-detail{
+.detail .btn-detail {
   border-radius: 50px;
   text-decoration: none;
   color: white;
@@ -674,24 +673,6 @@ section {
   background: linear-gradient(90deg, rgb(132, 0, 255), rgb(255, 0, 179));
   transition: all 1s ease;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*-------------------- FOOTER ----------------*/
 #contact {

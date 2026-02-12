@@ -116,12 +116,12 @@ section {
 
 /*--------------------- CTSP -------------*/
 #container {
-    /* height: 100vh; */
-    /* margin-top: 1rem; */
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 1rem;
-    margin-top: 2px;
+  /* height: 100vh; */
+  /* margin-top: 1rem; */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  margin-top: 2px;
 }
 #color-1:checked ~ .right .select-color .set-color-1,
 #color-2:checked ~ .right .select-color .set-color-2,
@@ -130,35 +130,33 @@ section {
   outline-offset: 4px;
 }
 /*----------------- LEFT ---------------*/
-.left-content-img{
-    position: relative;
+.left-content-img {
+  position: relative;
 }
 /* .left-content-img .img-1{
     position: relative;
 } */
 .left-content-img .img-3,
-.left-content-img .img-2{
-    opacity: 0;
+.left-content-img .img-2 {
+  opacity: 0;
 }
 
-.left-content-img .img-2{
-    top: 0;
-    left: 0;
-    position: absolute;
+.left-content-img .img-2 {
+  top: 0;
+  left: 0;
+  position: absolute;
 }
-.left-content-img .img-3{
-    top: 0;
-    left: 0;
-    position: absolute;
+.left-content-img .img-3 {
+  top: 0;
+  left: 0;
+  position: absolute;
 }
-#color-2:checked ~ .left .left-content-img .img-2{
-    opacity: 1;
+#color-2:checked ~ .left .left-content-img .img-2 {
+  opacity: 1;
 }
-#color-3:checked ~ .left .left-content-img .img-3{
-    opacity: 1;
+#color-3:checked ~ .left .left-content-img .img-3 {
+  opacity: 1;
 }
-
-
 
 /*--------------- RIGHT -------------*/
 .select-color {
@@ -175,10 +173,10 @@ section {
   border-radius: 50%;
 }
 .select-color label:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 .select-color .set-color-1 {
-  background-color: #F0E1C4;
+  background-color: #f0e1c4;
 }
 .select-color .set-color-2 {
   background-color: #000000;
@@ -186,12 +184,9 @@ section {
 .select-color .set-color-3 {
   background-color: #b47b55;
 }
-.ctn-desc-img #color-2:checked ~ .left-content-img .img-2{
-    opacity: 1;
+.ctn-desc-img #color-2:checked ~ .left-content-img .img-2 {
+  opacity: 1;
 }
-
-
-
 
 .ctn-desc-img .price {
   color: red;
