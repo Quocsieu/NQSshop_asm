@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CTSP</title>
+    <link rel="stylesheet" href="/ASM/ASSETS/CSS/CSS_CTSP/1N/ctsp_1N_bac.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <input type="checkbox" id="check-cart" hidden />
+    <input type="checkbox" id="check-found" hidden />
+    <header id="header">
+      <a href="#">
+        <img
+          class="header-img"
+          src="/ASM/ASSETS/IMG/Header/Logo.png"
+          alt="Ảnh Lỗi"
+        />
+      </a>
+      <nav class="navbar-left">
+        <ul class="nav-list">
+          <li class="nav-list-item"><a href="/ASM/index.html">Home</a></li>
+          <li class="nav-list-item"><a href="/ASM/about.html ">About</a></li>
+          <li class="nav-list-item">
+            <a href="/ASM/features.html">Features</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="/ASM/products.html">Product</a>
+          </li>
+          <li class="nav-list-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <nav class="navbar-right">
+        <div class="search">
+          <input type="text" id="text" placeholder="Tìm kiếm" />
+          <i class="bi bi-search icon-search"></i>
+        </div>
+        <a href="/ASM/login.html"><i class="bi bi-person-circle"></i></a>
+        <label for="check-cart"><i class="bi bi-cart-fill"></i></label>
+      </nav>
+    </header>
+    <header class="mobile-header">
+      <input id="check" type="checkbox" hidden />
+      <nav class="navbar-left navbar-left__mobile">
+        <label for="check">
+          <div class="icon-hambergur">
+            <div class="hambergur"></div>
+          </div>
+        </label>
+        <div class="list-menu__mobile">
+          <div class="list-menu__left">
+            <div class="menu-mobile__title">
+              <label for="check">
+                <div class="icon-hambergur">
+                  <div class="hambergur"></div>
+                </div>
+              </label>
+              <div></div>
+              <h2>Menu</h2>
+            </div>
+            <hr />
+            <ul class="nav-list nav-list__mobile">
+              <li class="nav-list-item"><a href="/ASM/index.html">Home</a></li>
+              <li class="nav-list-item">
+                <a href="/ASM/about.html ">About</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="/ASM/features.html">Features</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="/ASM/products.html">Product</a>
+              </li>
+              <li class="nav-list-item"><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <label for="check" class="list-menu__right"></label>
+        </div>
+      </nav>
+      <a class="navbar-center" href="#">
+        <img
+          class="header-img header-img__mobile"
+          src="/ASM/ASSETS/IMG/Header/Logo.png"
+          alt="Ảnh Lỗi"
+        />
+      </a>
+      <nav class="navbar-right navbar-right__mobile">
+        <label for="check-found"
+          ><i class="bi-mobile bi-search icon-search icon-search__mobile"></i
+        ></label>
+        <a href="/ASM/login.html"><i class="bi-mobile bi-person-circle"></i></a>
+        <label for="check-cart"><i class="bi-mobile bi-cart-fill"></i></label>
+      </nav>
+    </header>
+    <div class="container-cart">
+      <label for="check-cart" class="container left"></label>
+      <div class="container-right">
+        <div class="container cart-title">
+          <h4 class="title-left">Giỏ hàng</h4>
+          <label for="check-cart"
+            ><h4 class="title-right"><i class="bi bi-x-lg"></i> Đóng</h4></label
+          >
+        </div>
+        <hr />
+        <div class="container cart-products">
+          <input id="check-delete" type="radio" hidden />
+          <a href="/ASM/ASSETS/HTML_NHAY/CTSP/CTSP_1320.html"
+            ><div class="cart-products__top products-1">
+              <div class="cart-img">
+                <img
+                  src="/ASM/ASSETS/IMG_SANPHAM/BALO/ROW3/ITEMS2/đen.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="img-desc">
+                <p>BALO MWC 1320 - Balo Mini Da Mềm Mịn, Êm Gọn, Phong...</p>
+                <p>Kích cỡ: Free size</p>
+                <div class="delete-products">
+                  <p>1 x 195.000 đ</p>
+                  <label for="check-delete" class="btn-delete">Xóa</label>
+                </div>
+              </div>
+            </div></a
+          >
+          <hr class="hr-1" />
+          <a href="/ASM/ASSETS/HTML_NHAY/CTSP/CTSP_G339.html"
+            ><div class="cart-products__top">
+              <div class="cart-img">
+                <img src="/ASM/ASSETS/IMG_SANPHAM/ITEMS-2/đen.jpg" alt="" />
+              </div>
+              <div class="img-desc">
+                <p>
+                  Giày Cao Gót MWC G339 - Sandal Cao Gót 8P, Mũi Vuông, Quai...
+                </p>
+                <p>Kích cỡ: 39</p>
+                <div class="delete-products">
+                  <p>1 x 225.000 đ</p>
+                  <p class="btn-delete">Xóa</p>
+                </div>
+              </div>
+            </div></a
+          >
+          <hr />
+          <h2 class="cart-products__center">Tạm tính: 420.000 đ</h2>
+          <hr />
+          <div class="btn-cart">
+            <a href="/ASM/giohang.html">XEM GIỎ HÀNG</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-found">
+      <label for="check-found" class="found-left"></label>
+      <div class="found">
+        <input type="text" placeholder="Tìm kiếm" />
+        <label for="check-found"><i class="bi bi-x-lg"></i></label>
+      </div>
+    </div>
+    <!-- Swiper -->
+    <div id="container">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              class="img-1"
+              src="/ASM/ASSETS/IMG/Products/Cao_got/items-2/img-1.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="right">
+        <input id="color" type="radio" name="btn-color" hidden />
+        <div class="ctn-desc-img">
+          <h1 class="desc">
+            Giày Cao Gót MWC G345 - Giày Cao Gót 5cm, Mũi Vuông, Quai Mảnh Đính
+            Đá Bạc Ánh Kim, Sang Trọng, Nữ Tính, Hiện Đại.
+          </h1>
+          <h2 class="price">235.000 đ</h2>
+          <div class="select-color">
+            <label for="color" class="set-color"></label>
+          </div>
+        </div>
+        <div class="ctn-size">
+          <p class="size-title">Kích thước</p>
+          <div class="choose-size">
+            <input id="check-1" type="radio" name="number" hidden />
+            <input id="check-2" type="radio" name="number" hidden />
+            <input id="check-3" type="radio" name="number" hidden />
+            <input id="check-4" type="radio" name="number" hidden />
+            <input id="check-5" type="radio" name="number" hidden />
+            <label for="check-1" class="size-1"><p>35</p></label>
+            <label for="check-2" class="size-2"><p>36</p></label>
+            <label for="check-3" class="size-3"><p>37</p></label>
+            <label for="check-4" class="size-4"><p>39</p></label>
+            <label for="check-5" class="size-5"><p>40</p></label>
+          </div>
+        </div>
+        <div class="btn-buy">
+          <a class="buy-now" href="">Mua ngay</a>
+          <a class="add-cart" href=""
+            ><i class="bi bi-cart-check-fill"></i>Thêm vào giỏi hàng</a
+          >
+        </div>
+        <div class="ctn-service">
+          <div class="service-item">
+            <img src="/ASM/ASSETS/IMG-CTSP/1.jpg" alt="" />
+            <p class="desc">Bảo hành keo vĩnh viễn</p>
+          </div>
+          <div class="service-item">
+            <img src="/ASM/ASSETS/IMG-CTSP/2.jpg" alt="" />
+            <p class="desc">
+              Miễn phí vận chuyển toàn quốc cho đơn hàng từ 150k
+            </p>
+          </div>
+          <div class="service-item">
+            <img src="/ASM/ASSETS/IMG-CTSP/3.jpg" alt="" />
+            <p class="desc">
+              Đổi trả dễ dàng (trong vòng 7 ngày nếu lỗi nhà sản xuất)
+            </p>
+          </div>
+          <div class="service-item">
+            <img src="/ASM/ASSETS/IMG-CTSP/4.jpg" alt="" />
+            <p class="desc">Hotline 1900.633.349 hỗ trợ từ 8h30-21h30</p>
+          </div>
+          <div class="service-item">
+            <img src="/ASM/ASSETS/IMG-CTSP/5.jpg" alt="" />
+            <p class="desc">Giao hàng tận nơi, nhận hàng xong thanh toán</p>
+          </div>
+          <div class="service-item">
+            <img src="/ASM/ASSETS/IMG-CTSP/6.jpg" alt="" />
+            <p class="desc">
+              Ưu đãi tích điểm và hưởng quyền lợi thành viên từ MWC
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+      <section id="contact">
+        <div id="contact-card">
+          <div id="card-call">
+            <div id="call-buy">
+              <p>GỌI MUA HÀNG ONLINE (08:00 - 21: 00 mỗi ngày)</p>
+              <h3>1900.633.349</h3>
+              <p>Tất cả các ngày trong tuần (Trừ tết Âm Lịch)</p>
+            </div>
+            <div id="call-fback">
+              <p>GỌI MUA HÀNG ONLINE (08:00 - 21: 00 mỗi ngày)</p>
+              <h3>1900.633.349</h3>
+              <p>Tất cả các ngày trong tuần (Trừ tết Âm Lịch)</p>
+            </div>
+          </div>
+          <div id="card-info">
+            <p id="info-title">THÔNG TIN</p>
+            <ul id="info-list">
+              <li class="list-items">
+                <a href="https://mwc.com.vn/post/gioi-thieu-ve-mwc"
+                  >Giới thiệu về MWC</a
+                >
+              </li>
+              <li class="list-items">
+                <a
+                  href="https://mwc.com.vn/post/thong-tin-website-thuong-mai-dien-tu"
+                  >Thông tin Website thương mại điện tử</a
+                >
+              </li>
+              <li class="list-items">
+                <a
+                  href="https://docs.google.com/forms/d/1r_OHLVG9I03_d561JIfgnAj71KwLFg8WOrIDFMmZveQ/viewform?edit_requested=true"
+                  >Than Phiền Góp Ý</a
+                >
+              </li>
+              <li class="list-items">
+                <a href="https://mwc.com.vn/post/chinh-sach-bao-mat-thong-tin"
+                  >Chính sách và quy định</a
+                >
+              </li>
+            </ul>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.97654652872512!2d106.68658965798257!3d10.763376592474307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f19ed3a6317%3A0x252f23e97f9b0006!2zMjE0IE5ndXnhu4VuIFRyw6NpLCBQaMaw4budbmcgTmd1eeG7hW4gQ8awIFRyaW5oLCBRdeG6rW4gMSwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oIDcwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1770655432552!5m2!1svi!2s"
+              style="border-radius: 15px"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+          <div id="card-faq">
+            <p id="faq-title">FAQ</p>
+            <ul id="faq-list">
+              <li class="list-items">
+                <a
+                  href="https://mwc.com.vn/post/giao-hang-toan-quoc"
+                  target="_blank"
+                  >Vận chuyển</a
+                >
+              </li>
+              <li class="list-items">
+                <a
+                  href="https://mwc.com.vn/post/chinh-sach-doi-tra"
+                  target="_blank"
+                  >Chính sách đổi trả</a
+                >
+              </li>
+              <li class="list-items">
+                <a
+                  href="https://mwc.com.vn/post/chinh-sach-bao-hanh-tron-doi"
+                  target="_blank"
+                  >Chính sách đổi trả bảo hành</a
+                >
+              </li>
+              <li class="list-items">
+                <a
+                  href="https://mwc.com.vn/post/doi-tac-cung-cap"
+                  target="_blank"
+                  >Đối tác cung cấp</a
+                >
+              </li>
+            </ul>
+            <ul id="icon-list">
+              <li class="icon-items">
+                <a href="https://www.facebook.com/www.mwc.vn/" target="_blank"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+              </li>
+              <li class="icon-items">
+                <a href="https://mwc.com.vn/#" target="_blank"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </li>
+              <li class="icon-items">
+                <a href="https://www.youtube.com/@MWCShop01" target="_blank"
+                  ><i class="bi bi-youtube"></i
+                ></a>
+              </li>
+              <li class="icon-items">
+                <a href="https://shopee.vn/mwc_shop" target="_blank"
+                  ><i class="bi bi-tiktok"></i
+                ></a>
+              </li>
+              <li class="icon-items">
+                <a href="https://www.tiktok.com/@mwc_official_" target="_blank"
+                  ><i class="bi bi-shop-window"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div id="form-contact">
+            <h2>LIÊN HỆ</h2>
+            <form id="contact-form">
+              <input
+                class="input user"
+                type="text"
+                placeholder="Họ và tên"
+                required
+              />
+              <input
+                class="input email"
+                type="email"
+                placeholder="Email"
+                required
+              />
+              <textarea
+                class="input text"
+                rows="8"
+                placeholder="Nội dung"
+                required
+              ></textarea>
+              <button type="submit">GỬI</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script type="text/javascript">
+      window.$crisp = [];
+      window.CRISP_WEBSITE_ID = "f8841a44-95bb-42c6-a0f9-f6b3213c1130";
+      (function () {
+        d = document;
+        s = d.createElement("script");
+        s.src = "https://client.crisp.chat/l.js";
+        s.async = 1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+      })();
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        speed: 600,
+        autoplay: {
+          delay: 2000,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
