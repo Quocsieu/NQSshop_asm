@@ -395,7 +395,7 @@ main {
 #banner {
   width: 100%;
   min-height: 100vh;
-  background-image: url(ASSETS/IMG/Banner/banner.png);
+  background-image: url(../../IMG/Banner/banner.png);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -1111,7 +1111,7 @@ main {
     grid-template-columns: auto 1fr auto;
   }
   #banner {
-    background-image: url(ASSETS/IMG/Banner/Logo-mobile.png);
+    background-image: url(../../IMG/Banner/Logo-mobile.png);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
